@@ -63,8 +63,8 @@
 
   <repositories>
     <repository>
-      <id>velocity</id>
-      <url>https://nexus.velocitypowered.com/repository/maven-public/</url>
+      <id>aikar</id>
+      <url>https://repo.aikar.co/content/groups/aikar/</url>
     </repository>
   </repositories>
 
