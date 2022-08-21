@@ -74,8 +74,7 @@ public class PointsGiverVelocity {
                 e.printStackTrace();
               }
             })
-        //        .repeat(20, TimeUnit.MINUTES);
-        .repeat(1, TimeUnit.SECONDS)
+        .repeat(20, TimeUnit.MINUTES)
         .schedule();
 
     logger.info(getName() + " enabled.");
