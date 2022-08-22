@@ -19,7 +19,7 @@ import net.azisaba.pointsgivervelocity.sql.SQLConnector;
 @Plugin(
     id = "points-giver-velocity",
     name = "PointsGiverVelocity",
-    version = "1.0.1",
+    version = "1.0.2",
     url = "https://github.com/AzisabaNetwork/PointsGiverVelocity",
     description = "PointsGiver for Velocity",
     authors = {"Azisaba Network"})
