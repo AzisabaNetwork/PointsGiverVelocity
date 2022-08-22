@@ -90,7 +90,7 @@ public class PointsGiverVelocity {
   }
 
   private void executeSQLCommand(Connection connection) throws SQLException {
-    String cmd = "INSERT INTO `playerpoints` (`playername`, `points`) VALUES ";
+    String cmd = "INSERT INTO `playerpoints_points` (`uuid`, `points`) VALUES ";
 
     cmd +=
         proxy.getAllPlayers().stream()
